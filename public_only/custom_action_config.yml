@@ -1,0 +1,10 @@
+images:
+    ontario: https://reg.gg.ca/heraldry/pub-reg/ProjectPics/vi002_19910064_flag_ontarioprovince.jpg
+    quebec: https://reg.gg.ca/heraldry/pub-reg/ProjectPics/vi003_20080059_flag_quebecprovince2.jpg
+descriptions:
+    ontario: "The provincial flag of Ontario is a Red Ensign, with the Royal Union Flag in the canton and the Ontario shield of arms in the fly. The flag was introduced in 1965 in the wake of lengthy debates on replacing the Canadian Red Ensign with a new national flag."
+    quebec: "The flag of Quebec represents the Canadian province of Quebec. It consists of a white cross on a blue background, with four white fleurs-de-lis."
+general:
+   wv_url: <your https-enabled URL for Flask>
+ 
+   

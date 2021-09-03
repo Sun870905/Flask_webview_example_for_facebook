@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample webview</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main2.css') }}">
+  </head>
+<body>
+<script type="text/javascript">
+<!-- Include the Messenger Extensions JS SDK per https://developers.facebook.com/docs/messenger-platform/webview/extensions -->
+(function(d, s, id){
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/messenger.Extensions.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'Messenger'));
+</script>
+<div class="home">
+<h1> {{ title.titlename }} </h1>
+<img style="padding: 0 15px; float: left;" src={{image.graphicname}} alt={{title.titlename}} width="318" height="159" border="0">
+<p style="margin-top: 20px;"> </p>
+<p> <b>Description:</b> 
+{{description.descriptionname}}
+</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+intents:
+  - greet
+  - goodbye
+  - province_back
+
+entities:
+- province
+  
+slots:
+  province:
+    type: text
+
+actions:
+- utter_greet
+- utter_goodbye
+- action_province_back
+
+templates:
+  utter_greet:
+  - text: "Which province to you want to see?"
+
+  utter_goodbye:
+  - text: "Bye"
